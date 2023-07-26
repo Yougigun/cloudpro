@@ -64,6 +64,9 @@ async fn manual_hello() -> impl Responder {
 
 #[actix_web::main]
 async fn main() -> std::io::Result<()> {
+    // write the code to get env variable PORT
+    // let port: u16 = std::env::var("PORT").unwrap().parse().unwrap();
+
     std::env::set_var("RUST_LOG", "debug");
     env_logger::init();
     let server = HttpServer::new(|| {

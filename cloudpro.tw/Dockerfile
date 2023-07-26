@@ -24,10 +24,10 @@ RUN cargo build --release
 FROM debian:buster-slim
 
 # Copy the binary from builder to this new stage
-COPY --from=builder /usr/src/app/target/release/cloud /usr/local/bin
+COPY --from=builder /usr/src/app/target/release/cloudpro_tw /usr/local/bin
 
 # Port
-EXPOSE 8080
+EXPOSE 7070
 
 # Command to run the binary
-ENTRYPOINT ["personal_website"]
+ENTRYPOINT ["cloudpro_tw"]
