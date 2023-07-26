@@ -48,7 +48,7 @@ async fn index() -> impl Responder {
             </head>
             <body>
                 <div class="center">
-                    <p>Welcome to Cloud Pro!</p>
+                    <p>Welcome to Cloud Pro!!</p>
                 </div>
             </body>
             </html>
