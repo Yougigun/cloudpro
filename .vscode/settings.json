@@ -1,0 +1,6 @@
+{
+    "rust-analyzer.linkedProjects": [
+      "./cloudpro.tw/Cargo.toml"
+    ]
+  }
+  
